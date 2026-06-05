@@ -1,0 +1,43 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your App</title>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDQ-y3QSdrvH5PLtQkrHZE3LjRtk97f0hs",
+      authDomain: "habit-ccd80.firebaseapp.com",
+      projectId: "habit-ccd80",
+      storageBucket: "habit-ccd80.firebasestorage.app",
+      messagingSenderId: "186128623949",
+      appId: "1:186128623949:web:312fe28b303ab44386af04",
+      measurementId: "G-GNSQ1JQFMJ"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const messaging = firebase.messaging();
+
+    // Register Service Worker after page load
+  if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/firebase-messenger-sw.js")
+      .then((registration) => {
+        console.log("Service Worker registered with scope:", registration.scope);
+        messaging.useServiceWorker(registration);
+      })
+      .catch((err) => {
+        console.error("Service Worker registration failed:", err);
+      });
+  });
+}
+  </script>
+</head>
+<body>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186128623949",
+    "project_id": "habit-ccd80",
+    "storage_bucket": "habit-ccd80.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186128623949:android:e38e0a51fd8c49d386af04",
+        "android_client_info": {
+          "package_name": "com.example.habit_speed_code"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZaySbdvEGq0XEX6KmyykARnUgmcSjjIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
