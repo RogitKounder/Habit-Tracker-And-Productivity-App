@@ -1,21 +1,29 @@
-<<<<<<< HEAD
-# habit_speed_code
+# 🌟 Habit Tracker & Productivity App
 
-A new Flutter project.
+A Flutter-based habit tracking and productivity app built with Firebase.
+Track your daily habits across Morning, Evening, Workout, and Study routines.
+Features dynamic backgrounds powered by the Unsplash API, Firebase Authentication,
+Firestore real-time database, push notifications, streak tracking, and daily progress stats.
 
-## Getting Started
+## 🚀 Live Demo
+👉 https://habit-ccd80.web.app
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🔐 Firebase Authentication (Login & Register)
+- 📋 Daily Routine Management (Morning, Evening, Workout, Study)
+- ⏱️ Habit Timer with Progress Tracking
+- 🔥 Streak Tracking
+- 🖼️ Dynamic Backgrounds via Unsplash API
+- 🔔 Push Notifications & Daily Reminders
+- 📊 Daily Stats & Progress
+- ☁️ Real-time Firestore Database
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Built With
+- Flutter & Dart
+- Firebase (Auth, Firestore, Hosting)
+- Unsplash API
+- Shared Preferences
+- Flutter Local Notifications
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Habit-Tracker-And-Productivity-App
-A Flutter habit tracking app with Firebase authentication, Firestore database, daily routine management (morning, evening, workout, study), dynamic backgrounds via Unsplash API, and local push notifications.
->>>>>>> 8e357a0b8a3b52fea2015d18dbdf1ae346500eab
+## 👨‍💻 Developer
+- **Rogit Kounder** - Final Year Project
